@@ -1,0 +1,22 @@
+{
+  "name": "plainmail",
+  "version": "1.0.0",
+  "description": "Email on your own domains: add a domain, write its DNS records, create mailboxes, and read and send mail from Claude.",
+  "author": {
+    "name": "Plainmail",
+    "email": "support@plainmail.dev",
+    "url": "https://plainmail.dev"
+  },
+  "homepage": "https://plainmail.dev/docs",
+  "repository": "https://github.com/jdcodes1/plainmail-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "email",
+    "mailbox",
+    "dns",
+    "domains",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://plainmail.dev/privacy",
+  "icon": ".claude-plugin/icon.svg"
+}

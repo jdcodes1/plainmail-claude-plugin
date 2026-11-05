@@ -1,0 +1,15 @@
+{
+  "name": "plainmail",
+  "description": "Plainmail: email on your own domains, set up and handled from Claude.",
+  "owner": {
+    "name": "Plainmail",
+    "email": "support@plainmail.dev"
+  },
+  "plugins": [
+    {
+      "name": "plainmail",
+      "source": "./",
+      "description": "Email on your own domains: add a domain, write its DNS records, create mailboxes, and read and send mail from Claude."
+    }
+  ]
+}
