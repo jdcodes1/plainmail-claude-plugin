@@ -7,7 +7,7 @@
     "email": "support@plainmail.dev",
     "url": "https://plainmail.dev"
   },
-  "homepage": "https://plainmail.dev/docs",
+  "homepage": "https://plainmail.dev",
   "repository": "https://github.com/jdcodes1/plainmail-claude-plugin",
   "license": "MIT",
   "keywords": [
@@ -18,5 +18,8 @@
     "mcp"
   ],
   "privacyPolicyUrl": "https://plainmail.dev/privacy",
+  "termsOfServiceUrl": "https://plainmail.dev/terms",
+  "supportUrl": "https://plainmail.dev/contact",
+  "documentationUrl": "https://plainmail.dev/docs",
   "icon": ".claude-plugin/icon.svg"
 }
