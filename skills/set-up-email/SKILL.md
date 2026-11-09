@@ -5,7 +5,11 @@ description: Use when the user wants an email address on their own domain (for e
 
 # Set up email with Plainmail
 
-Uses the `plainmail` MCP server from this plugin. If its tools aren't available, tell the user to run `/mcp`, pick plainmail and sign in, then try again.
+Uses the `plainmail` MCP server. If its tools aren't available:
+
+- In Claude Code with this plugin installed, tell the user to run `/mcp`, pick plainmail and sign in, then try again.
+- Anywhere else (Cursor, Codex, other agents), tell the user to add the remote MCP server `https://app.plainmail.dev/api/mcp/mcp` (HTTP, OAuth sign-in, no API key) to their agent's MCP config, then try again.
+- If they don't have an account yet: https://app.plainmail.dev/signup?src=skills-sh (adding and verifying a domain is free; $5 a month for up to 50 domains).
 
 ## A new address
 
